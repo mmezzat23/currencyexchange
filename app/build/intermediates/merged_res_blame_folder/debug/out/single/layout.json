@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "com.t.currenyexchange.app-mergeDebugResources-4:/layout/activity_showexcahngeoperation.xml",
+        "source": "com.t.currenyexchange.app-main-7:/layout/activity_showexcahngeoperation.xml"
+    },
+    {
+        "merged": "com.t.currenyexchange.app-mergeDebugResources-4:/layout/item_operation.xml",
+        "source": "com.t.currenyexchange.app-main-7:/layout/item_operation.xml"
+    },
+    {
+        "merged": "com.t.currenyexchange.app-mergeDebugResources-4:/layout/activity_main.xml",
+        "source": "com.t.currenyexchange.app-main-7:/layout/activity_main.xml"
+    }
+]

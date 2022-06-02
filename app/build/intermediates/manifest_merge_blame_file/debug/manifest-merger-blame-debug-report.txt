@@ -1,0 +1,97 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.t.currenyexchange"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="32" />
+9-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:6:5-67
+11-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:6:22-64
+12
+13    <application
+13-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:8:5-31:19
+14        android:name="com.t.currenyexchange.Helpers.RoomApp"
+14-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:9:9-40
+15        android:allowBackup="true"
+15-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:10:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.7.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/03f3eecfa3ef84b1526e0ae8664a269f/transformed/core-1.7.0/AndroidManifest.xml:24:18-86
+17        android:dataExtractionRules="@xml/data_extraction_rules"
+17-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:11:9-65
+18        android:debuggable="true"
+19        android:fullBackupContent="@xml/backup_rules"
+19-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:12:9-54
+20        android:icon="@mipmap/ic_launcher"
+20-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:13:9-43
+21        android:label="@string/app_name"
+21-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:14:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:15:9-54
+23        android:supportsRtl="true"
+23-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:16:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.Currenyexchange" >
+25-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:17:9-53
+26        <activity
+26-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:19:9-21:40
+27            android:name="com.t.currenyexchange.Ui.Activity.ShowexcahngeoperationActivity"
+27-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:20:13-70
+28            android:exported="false" />
+28-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:21:13-37
+29        <activity
+29-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:22:9-30:20
+30            android:name="com.t.currenyexchange.Ui.Activity.MainActivity"
+30-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:23:13-53
+31            android:exported="true" >
+31-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:24:13-36
+32            <intent-filter>
+32-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:25:13-29:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:26:17-69
+33-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:26:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:28:17-77
+35-->/Users/adam/Desktop/myjob/Onnety/Currenyexchange/app/src/main/AndroidManifest.xml:28:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[androidx.room:room-runtime:2.4.2] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/49236f81eda5ab914ca3a6d53cc6aaa7/transformed/room-runtime-2.4.2/AndroidManifest.xml:25:9-28:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.4.2] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/49236f81eda5ab914ca3a6d53cc6aaa7/transformed/room-runtime-2.4.2/AndroidManifest.xml:26:13-74
+41            android:directBootAware="true"
+41-->[androidx.room:room-runtime:2.4.2] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/49236f81eda5ab914ca3a6d53cc6aaa7/transformed/room-runtime-2.4.2/AndroidManifest.xml:27:13-43
+42            android:exported="false" />
+42-->[androidx.room:room-runtime:2.4.2] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/49236f81eda5ab914ca3a6d53cc6aaa7/transformed/room-runtime-2.4.2/AndroidManifest.xml:28:13-37
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.0.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/3348e8ab5e2abb23a006247eaa42dbef/transformed/emoji2-1.0.0/AndroidManifest.xml:26:9-34:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.0.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/3348e8ab5e2abb23a006247eaa42dbef/transformed/emoji2-1.0.0/AndroidManifest.xml:27:13-67
+46            android:authorities="com.t.currenyexchange.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.0.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/3348e8ab5e2abb23a006247eaa42dbef/transformed/emoji2-1.0.0/AndroidManifest.xml:28:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.0.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/3348e8ab5e2abb23a006247eaa42dbef/transformed/emoji2-1.0.0/AndroidManifest.xml:29:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.0.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/3348e8ab5e2abb23a006247eaa42dbef/transformed/emoji2-1.0.0/AndroidManifest.xml:31:13-33:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.0.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/3348e8ab5e2abb23a006247eaa42dbef/transformed/emoji2-1.0.0/AndroidManifest.xml:32:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.0.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/3348e8ab5e2abb23a006247eaa42dbef/transformed/emoji2-1.0.0/AndroidManifest.xml:33:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/1a1a2041f739d9cae13e9a62b01903b8/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/1a1a2041f739d9cae13e9a62b01903b8/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.0] /Users/adam/Library/Application Support/Google/AndroidStudio2021.2/caches/transforms-3/1a1a2041f739d9cae13e9a62b01903b8/transformed/lifecycle-process-2.4.0/AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>
