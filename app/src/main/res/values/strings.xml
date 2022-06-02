@@ -10,6 +10,7 @@
     <string name="result">Result</string>
     <string name="write_amount">write amount</string>
     <string name="details">details</string>
+    <string name="no_data">No data</string>
     <string-array name="currencyarrays">
         <item>EUR</item>
         <item>USD</item>
